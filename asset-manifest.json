@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/earlll_pw1/static/css/main.ca8e892b.css",
+    "main.js": "/earlll_pw1/static/js/main.6b3f0c71.js",
+    "static/media/im5.jpg": "/earlll_pw1/static/media/im5.7cbe0ff803aa33df74f5.jpg",
+    "static/media/im3.jpg": "/earlll_pw1/static/media/im3.796c39e0234446863fc3.jpg",
+    "static/media/luca-bravo-XJXWbfSo2f0-unsplash.jpg": "/earlll_pw1/static/media/luca-bravo-XJXWbfSo2f0-unsplash.873677d268db6c85bb77.jpg",
+    "static/media/im6.jpg": "/earlll_pw1/static/media/im6.028d64a59f4af9e15315.jpg",
+    "static/media/im1.jpg": "/earlll_pw1/static/media/im1.ed75d8a6d2fb3c40e5e2.jpg",
+    "static/media/im7.jpg": "/earlll_pw1/static/media/im7.c4823e8783b2064c0bce.jpg",
+    "static/media/im2.jpg": "/earlll_pw1/static/media/im2.a475aa2c46f9faf65663.jpg",
+    "static/media/im4.jpg": "/earlll_pw1/static/media/im4.2195a8833a4660e58b88.jpg",
+    "static/media/ValkyRegular.ttf": "/earlll_pw1/static/media/ValkyRegular.d79e59cc692dd3be9064.ttf",
+    "index.html": "/earlll_pw1/index.html",
+    "main.ca8e892b.css.map": "/earlll_pw1/static/css/main.ca8e892b.css.map",
+    "main.6b3f0c71.js.map": "/earlll_pw1/static/js/main.6b3f0c71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca8e892b.css",
+    "static/js/main.6b3f0c71.js"
+  ]
+}
