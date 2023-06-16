@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+@font-face {
+    font-family: Valky;
+    src: url("/src/Assets/Fonts/ValkyRegular.ttf") format("truetype");
+}
+
+.customt::after{
+  transition: top, opacity;
+  transition-duration: 600ms;
+  transition-timing-function: ease;
+  opacity: 0;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@keyframes scrolling {
+    0%{
+      /* transform: translateX(100vw); starting point = 100vw = width of parent */
+      transform: translateX(0); /* change to 0 after duplicating */
+    }
+    100%{
+      /* transform: translateX(-180vw);  -9 * 20vw | 20vw= size of li  |manual */
+      /* -1* size of li * #items */
+      transform: translateX(calc(-1*20vw*14));
+    }
+  }
+  
+  /* duplicate:  */
+  /* starting / size of li = 100vw/20vw = 5 = repeat 5 times*/
+  
+  .animate-scrolling {
+    animation: scrolling 26s linear infinite;
+  }
+  
+  @keyframes scrolling2 {
+    0%{
+      transform: translateX(0);
+    }
+    100%{
+      transform: translateX(calc(-1*20vw*12));
+    }
+  }
+  .animate-scrolling2 {
+    animation: scrolling2 28s linear infinite;
+  }
+
+
+  /* scrollbar */
+  /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  ::-webkit-scrollbar {width: 3px;}
+  ::-webkit-scrollbar-thumb {background-color: #000000;border-radius: 6px;border: 1px solid #b4b4b4;}
+  ::-webkit-scrollbar-thumb:hover {background-color: #ef4444}
+  ::-webkit-scrollbar-track {background: #ffffff;}
+
+@media (prefers-color-scheme: dark) {
+  ::-webkit-scrollbar {width: 3px;}
+  ::-webkit-scrollbar-thumb {background-color: #fafafa;border-radius: 6px;border: 1px solid #b4b4b4;}
+  ::-webkit-scrollbar-thumb:hover {background-color: #ef4444}
+  ::-webkit-scrollbar-track {background: #000000;}
+}
